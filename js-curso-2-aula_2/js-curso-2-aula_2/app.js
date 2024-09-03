@@ -47,9 +47,9 @@ function verificarChute() {
         }
         // variável que soma o número de tentativas até que o valor do chute iguale ao valor real
         chupetadas++;
-        limparCampo()
-    }
-}
+        limparCampo();
+    };
+};
 
 function gerarNumeroAleatorio() {
   // essa variável vai incluir o numero sorteado na lista  
